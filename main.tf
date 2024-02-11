@@ -17,7 +17,7 @@ location = azurerm_resource_group.rg.location
 name = random_pet.azurerm_kubernetes_cluster_name.id
 resource_group_name = azurerm_resource_group.rg.name
 dns_prefix = random_pet.azurerm_kubernetes_cluster_dns_prefix.id
-6
+
 identity {
 type = "SystemAssigned"
 }
