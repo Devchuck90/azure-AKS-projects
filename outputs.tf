@@ -16,7 +16,7 @@ output "cluster_ca_certificate" {
 value = azurerm_kubernetes_cluster.k8s.kube_config[0].cluster_ca_certificate
 sensitive = true
 }
-9
+
 output "cluster_password" {
 value = azurerm_kubernetes_cluster.k8s.kube_config[0].password
 sensitive = true
